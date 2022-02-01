@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPeHOmQRNT0aDHIHkSEQU+QAAAAACAAAAAAAQZgAAAAEAACAAAACIhnTr16b7YosqrTx//XfPdzCYJREt2veox+tR9Y3Z9QAAAAAOgAAAAAIAACAAAAB7Amx6poTk3La/doYpu6YakurPIax415RGPRaN5FNgioAAAAASInz6W02MkDZftIRswyQd0NNX4Q6j6Ta8nmZzVmu2t8XB0xASPB7C2c2gPk2VY19CgMAC2JZTy0Toe4xbTHXqs+fHERGJrk2YiVo5Rbk3mShGmlQzZMJ/RbAA+F8V1T/4l3bxxiV808aHo3xn0YoGpopEYtBmwhSQhIx/OCFmA0AAAAARo2LPQoNPjnIfTdUdAPLi7BoyuYK/Dqu1ykKsUoGN/EUvtZuq1/6yXuPXyUoAE9VraErsOTYJ+tFh/X4Fkm+x</EncryptedPassword>
+    <History>True|2022-02-01T06:32:34.9939390Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:mvcappcruddbserver.database.windows.net,1433%3bInitial Catalog=MvcAppCRUD_db%3bUser Id=adminuser%40mvcappcruddbserver%3bPassword=Admin123%2a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MvcApp.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:mvcappcruddbserver.database.windows.net,1433%3bInitial Catalog=MvcAppCRUD_db%3bUser Id=adminuser%40mvcappcruddbserver%3bPassword=Admin123%2a</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
